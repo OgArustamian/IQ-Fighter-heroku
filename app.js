@@ -9,6 +9,7 @@ const FileStore = require('session-file-store')(session);
 const path = require('path');
 
 // ws
+// const { v4: uuidv4 } = require('uuid');
 const http = require('http');
 const { WebSocketServer } = require('ws');
 
@@ -35,16 +36,11 @@ const sessionParser = session({
   saveUninitialized: false,
 });
 
-const publicPath = path.join(__dirname, '..', 'public'); 
-
-app.use(express.static(path.join(__dirname, 'client/build')));
-app.get('*', (req, res) => {
-  res.sendFile(path.join(publicPath, 'index.html'));
-});
+app.use(express.static('build'));
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cors({ credentials: true, origin: 'http://localhost:3000' }));
+app.use(cors({ credentials: true, origin: 'https://iq-fighter.herokuapp.com' }));
 
 app.use(sessionParser);
 
@@ -66,6 +62,10 @@ app.use((err, req, res) => {
   // render the error page
   res.status(err.status || 500);
   res.render('error');
+});
+
+app.get('/*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'build', 'index.html'));
 });
 
 // Create an HTTP server
