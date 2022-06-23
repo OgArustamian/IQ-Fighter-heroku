@@ -3,13 +3,12 @@
 require('dotenv').config();
 const createError = require('http-errors');
 const express = require('express');
-const logger = require('morgan');
 const cors = require('cors');
 const session = require('express-session');
 const FileStore = require('session-file-store')(session);
+const path = require('path');
 
 // ws
-// const { v4: uuidv4 } = require('uuid');
 const http = require('http');
 const { WebSocketServer } = require('ws');
 
@@ -36,7 +35,13 @@ const sessionParser = session({
   saveUninitialized: false,
 });
 
-app.use(logger('dev'));
+const publicPath = path.join(__dirname, '..', 'public'); 
+
+app.use(express.static(path.join(__dirname, 'client/build')));
+app.get('*', (req, res) => {
+  res.sendFile(path.join(publicPath, 'index.html'));
+});
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cors({ credentials: true, origin: 'http://localhost:3000' }));
