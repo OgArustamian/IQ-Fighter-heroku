@@ -44,7 +44,7 @@ app.use(sessionParser);
 
 app.use('/auth', authRouter);
 
-app.get('/*', (req, res) => {
+app.get('*', (req, res) => {
   console.log('router get * ---->');
   res.sendFile(path.resolve(__dirname, 'build', 'index.html'));
 });
