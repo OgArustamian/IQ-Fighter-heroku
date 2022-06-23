@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.284cac94.css",
-    "main.js": "/static/js/main.37a7688e.js",
+    "main.js": "/static/js/main.00592bf0.js",
     "static/media/WINNER.png": "/static/media/WINNER.8c4e4cbd79db56397359.png",
     "static/media/rules.png": "/static/media/rules.49bdf3acdc8729e65514.png",
     "static/media/LOOSER_img.png": "/static/media/LOOSER_img.2ea3c67aa7b89109ce69.png",
@@ -11,10 +11,10 @@
     "static/media/swords-cursor.svg": "/static/media/swords-cursor.576e7f60ea8923ffe498.svg",
     "index.html": "/index.html",
     "main.284cac94.css.map": "/static/css/main.284cac94.css.map",
-    "main.37a7688e.js.map": "/static/js/main.37a7688e.js.map"
+    "main.00592bf0.js.map": "/static/js/main.00592bf0.js.map"
   },
   "entrypoints": [
     "static/css/main.284cac94.css",
-    "static/js/main.37a7688e.js"
+    "static/js/main.00592bf0.js"
   ]
 }
