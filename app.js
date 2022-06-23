@@ -17,8 +17,6 @@ const { roomController, leave } = require('./ws/roomController');
 const { gameController } = require('./ws/gameController');
 
 // routing
-const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
 const authRouter = require('./routes/auth');
 const {
   game, find, leaveType, GETRATE,
@@ -44,9 +42,7 @@ app.use(cors({ credentials: true, origin: 'https://iq-fighter.herokuapp.com' }))
 
 app.use(sessionParser);
 
-app.use('/', indexRouter);
 app.use('/auth', authRouter);
-app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
