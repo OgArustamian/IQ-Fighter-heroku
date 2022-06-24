@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.284cac94.css",
-    "main.js": "/static/js/main.00592bf0.js",
+    "main.css": "/static/css/main.a2e1b080.css",
+    "main.js": "/static/js/main.b5983bdf.js",
+    "static/js/845.4fbf7743.chunk.js": "/static/js/845.4fbf7743.chunk.js",
     "static/media/WINNER.png": "/static/media/WINNER.8c4e4cbd79db56397359.png",
+    "static/media/force-gameover-pic.png": "/static/media/force-gameover-pic.4699d8d040df889e6ef4.png",
     "static/media/rules.png": "/static/media/rules.49bdf3acdc8729e65514.png",
     "static/media/LOOSER_img.png": "/static/media/LOOSER_img.2ea3c67aa7b89109ce69.png",
     "static/media/healthborder-modified.png": "/static/media/healthborder-modified.986e0132d62b1a0eef99.png",
+    "static/media/female-model-new.png": "/static/media/female-model-new.89aba888b34614cb52e6.png",
     "static/media/male-mage.png": "/static/media/male-mage.a92bf834c6681c298010.png",
-    "static/media/female-mage.webp": "/static/media/female-mage.79dc85f6549e5312a445.webp",
+    "static/media/and-his-name-is-john-cena-1.mp3": "/static/media/and-his-name-is-john-cena-1.6b3bd3c6ad1d548ac4c0.mp3",
+    "static/media/now-thats.mp3": "/static/media/now-thats.f53a465fbbaafa6d5406.mp3",
+    "static/media/GareginVseHorosho.mp3": "/static/media/GareginVseHorosho.35a9872517da620e20ee.mp3",
     "static/media/swords-cursor.svg": "/static/media/swords-cursor.576e7f60ea8923ffe498.svg",
     "index.html": "/index.html",
-    "main.284cac94.css.map": "/static/css/main.284cac94.css.map",
-    "main.00592bf0.js.map": "/static/js/main.00592bf0.js.map"
+    "main.a2e1b080.css.map": "/static/css/main.a2e1b080.css.map",
+    "main.b5983bdf.js.map": "/static/js/main.b5983bdf.js.map",
+    "845.4fbf7743.chunk.js.map": "/static/js/845.4fbf7743.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.284cac94.css",
-    "static/js/main.00592bf0.js"
+    "static/css/main.a2e1b080.css",
+    "static/js/main.b5983bdf.js"
   ]
 }

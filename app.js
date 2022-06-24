@@ -13,7 +13,7 @@ const path = require('path');
 const http = require('http');
 const { WebSocketServer } = require('ws');
 
-const { roomController, leave } = require('./ws/roomController');
+const { roomController, leave, deleteRoom } = require('./ws/roomController');
 const { gameController } = require('./ws/gameController');
 
 // routing
@@ -104,6 +104,9 @@ wss.on('connection', (ws, request) => {
       case GETRATE:
         ladderboard(ws, params);
         break;
+        case DELETE_ROOM:
+          deleteRoom(rooms, room);
+          break;
       default:
         console.log('default case');
         console.warn(`Type: ${type} unknown`);
