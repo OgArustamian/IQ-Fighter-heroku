@@ -28,7 +28,7 @@ const PORT = process.env.PORT ?? 3001;
 
 const sessionParser = session({
   name: 'sessionID',
-  store: new FileStore({}),
+  store: new FileStore({path: path.join(__dirname, 'sessions')}),
   secret: process.env.SESSION,
   resave: true,
   proxy: true,
