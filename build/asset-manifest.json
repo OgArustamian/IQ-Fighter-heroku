@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a2e1b080.css",
-    "main.js": "/static/js/main.b5983bdf.js",
+    "main.js": "/static/js/main.bdb7cc86.js",
     "static/js/845.4fbf7743.chunk.js": "/static/js/845.4fbf7743.chunk.js",
     "static/media/WINNER.png": "/static/media/WINNER.8c4e4cbd79db56397359.png",
     "static/media/force-gameover-pic.png": "/static/media/force-gameover-pic.4699d8d040df889e6ef4.png",
@@ -16,11 +16,11 @@
     "static/media/swords-cursor.svg": "/static/media/swords-cursor.576e7f60ea8923ffe498.svg",
     "index.html": "/index.html",
     "main.a2e1b080.css.map": "/static/css/main.a2e1b080.css.map",
-    "main.b5983bdf.js.map": "/static/js/main.b5983bdf.js.map",
+    "main.bdb7cc86.js.map": "/static/js/main.bdb7cc86.js.map",
     "845.4fbf7743.chunk.js.map": "/static/js/845.4fbf7743.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a2e1b080.css",
-    "static/js/main.b5983bdf.js"
+    "static/js/main.bdb7cc86.js"
   ]
 }
