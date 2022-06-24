@@ -31,6 +31,7 @@ const sessionParser = session({
   store: new FileStore({}),
   secret: process.env.SESSION,
   resave: true,
+  proxy: true,
   saveUninitialized: false,
 });
 
