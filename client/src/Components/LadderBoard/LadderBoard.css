@@ -1,0 +1,36 @@
+.ladderBoard-conteiner {
+  background-image: url('../AboutPage/rules.png');
+  background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+    background-size: 100%;
+    font-size: 18px;
+}
+
+.table-form {
+  width: 416px;
+    margin: 0 auto; 
+}
+
+.yourRate {
+  background-color: rgb(155, 39, 35);
+}
+
+.rateTextColor {
+  color: rgb(248,183,1);
+}
+
+td:first-child,
+th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+td:last-child,
+th:last-child {
+  border-radius: 0 10px 10px 0;
+} 
